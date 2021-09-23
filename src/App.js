@@ -1,9 +1,12 @@
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import React from 'react';
+import CalculatorLayout from './layout/CalculatorLayout.js';
 
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <CalculatorLayout />
     </div>
   );
 }
